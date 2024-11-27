@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'users_db';
-$username = 'root'; // kohanda vastavalt vajadusele
-$password = 'mysql'; // kohanda vastavalt vajadusele
+$username = 'root'; 
+$password = 'mysql'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

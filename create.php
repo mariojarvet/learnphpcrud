@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = $pdo->prepare($sql);
     $stmt->execute([$name, $email]);
 
-    header("Location: index.php"); // Suunamine tagasi kasutajate nimekirja
+    header("Location: index.php");
     exit;
 }
 ?>
